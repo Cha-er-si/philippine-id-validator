@@ -1,0 +1,22 @@
+{
+  "name": "philippine-id-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundle.umd.js",
+  "module": "dist/bundle.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "author": "Cha-er-si",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "validator": "^13.12.0"
+  }
+}
